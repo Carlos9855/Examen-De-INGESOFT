@@ -2,5 +2,6 @@ require 'sinatra'
 require './config'
 
 get '/' do
-    'hola mundo'
+    erb :prueba
 end
+
